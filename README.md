@@ -1,1 +1,2 @@
 # Android_class_information_system
+大学本科的国家级大学生创新创业项目--基于Android系统的教室信息查询管理系统与开发
