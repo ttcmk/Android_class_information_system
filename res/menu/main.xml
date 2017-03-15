@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbar="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_search"
+        actionbar:showAsAction="always"
+        android:icon="@drawable/abc_ic_search_api_holo_light"
+        android:title="search"/>
+    <item
+        android:id="@+id/action_more"
+        actionbar:showAsAction="always"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_normal_holo_light"
+        android:title="more"/>
+
+</menu>
