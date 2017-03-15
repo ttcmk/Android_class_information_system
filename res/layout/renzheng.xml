@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+        <TextView
+        android:id="@+id/huanying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp" >
+    </TextView>
+    
+ <RelativeLayout android:id="@+id/RelativeLayout01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" >
+
+ <EditText
+		android:id="@+id/yonghu"
+		android:layout_width="280dip"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+	    android:layout_marginLeft="10dip" 
+		android:text="" >
+
+		</EditText>
+		<TextView 
+		    android:id="@+id/yonghu_label"
+			android:text="@string/shuruyonghuming"  
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip" 
+			android:layout_alignParentLeft="true" 
+			android:layout_toRightOf="@id/yonghu" 
+			android:layout_alignBaseline="@+id/yonghu">
+		</TextView>
+		
+ <EditText
+		android:id="@+id/mima"
+		android:layout_width="280dip"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:text=""
+		android:layout_marginLeft="10dip" 
+		android:layout_below="@id/yonghu"  >
+
+		</EditText>
+		<TextView 
+		    android:id="@+id/mima_label"
+			android:text="@string/shurumima"  
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" 
+			android:layout_toRightOf="@id/mima" 
+			android:layout_alignBaseline="@+id/mima"
+			android:layout_marginLeft="10dip" 
+			android:layout_below="@id/yonghu_label" 
+			>
+		</TextView>
+	
+</RelativeLayout>
+    <CheckBox android:id="@+id/checkbox1"	
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/hide_or_show"
+   />
+ <Button
+     android:id="@+id/button1"
+     android:layout_width="100dip"
+     android:layout_height="wrap_content"
+     android:text="@string/denglu"
+     android:layout_marginLeft="10dip" 
+      />
+
+</LinearLayout>

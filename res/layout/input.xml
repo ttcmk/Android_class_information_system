@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+		
+    <RelativeLayout android:id="@+id/RelativeLayout01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" >
+		
+		<EditText
+		    android:id="@+id/name"
+		    android:layout_width="280dip"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:text="" >
+
+		</EditText>
+		<TextView android:id="@+id/name_label"
+			android:text="@string/huodongming"  
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" 
+			android:layout_toRightOf="@id/name" 
+			android:layout_alignBaseline="@+id/name">
+		</TextView>
+		
+		<EditText android:id="@+id/zhujiangren"
+			android:text=""  
+			android:layout_width="280dip" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" 
+			android:layout_marginLeft="10dip" 
+			android:layout_below="@id/name" 
+			>
+		</EditText>
+		<TextView android:id="@+id/zhujiangren_label"
+			android:text="@string/zhujiangren"  
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" 
+			android:layout_toRightOf="@id/zhujiangren" 
+			android:layout_alignBaseline="@+id/zhujiangren"
+			android:layout_below="@id/name_label"  >
+		</TextView>
+
+		<EditText android:id="@+id/didian"
+			android:layout_width="280dip" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" 
+			android:layout_marginLeft="10dip"
+			android:layout_below="@id/zhujiangren" 
+			>
+		</EditText>
+		<TextView android:id="@+id/didian_label"
+			android:text="@string/didian"  
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" 
+			android:layout_toRightOf="@id/didian" 
+			android:layout_alignBaseline="@+id/didian"
+			android:layout_below="@id/zhujiangren_label" 
+			>
+		</TextView>
+		<EditText android:id="@+id/time"
+			android:layout_width="280dip" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" 
+			android:layout_marginLeft="10dip"
+			android:layout_below="@id/didian" 
+			>
+		</EditText>
+		<TextView android:id="@+id/time_label"
+			android:text="@string/time"  
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" 
+			android:layout_toRightOf="@id/time" 
+			android:layout_alignBaseline="@+id/time"
+			android:layout_below="@id/didian_label" 
+			>
+		</TextView>
+		
+		<EditText android:id="@+id/zhubanfang"
+			android:layout_width="280dip" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" 
+			android:layout_marginLeft="10dip"
+			android:layout_below="@id/time" 
+			>
+		</EditText>
+		<TextView android:id="@+id/zhubanfang_label"
+			android:text="@string/zhubanfang"  
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" 
+			android:layout_toRightOf="@id/zhubanfang" 
+			android:layout_alignBaseline="@+id/zhubanfang"
+			android:layout_below="@id/time_label" 
+			>
+		</TextView>
+
+		<EditText
+		    android:id="@+id/detail"
+		    android:layout_width="280dip"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@id/zhubanfang"
+		    android:layout_marginLeft="10dip"
+		     >
+
+		</EditText>
+		<TextView android:id="@+id/detail_label"
+			android:text="@string/detail"  
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" 
+			android:layout_toRightOf="@id/detail" 
+			android:layout_alignBaseline="@+id/detail"
+			android:layout_below="@id/zhubanfang_label" 
+			>
+		</TextView>
+
+	</RelativeLayout>
+     <LinearLayout android:id="@+id/LinearLayout01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		
+	<Button android:id="@+id/add" 
+			android:text="@string/add" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding = "5dip"
+			android:layout_weight="1">
+		</Button>
+</LinearLayout>
+</LinearLayout>
