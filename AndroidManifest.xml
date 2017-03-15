@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.popupmenutest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.popupmenutest.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.EnterActivity" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.Fabuxinxi" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.Huodongjiangzuo" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.MainActivity2" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.Course" >
+        </activity>
+        
+         <activity 
+            android:name="com.example.popupmenutest.MainActivity" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.SchoolTimeTableActivity" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.Yonghurenzheng" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.kebiaojiemian" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.Settings" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.NewsService" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.SQLiteHelper" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.SQLWeeknumber" >
+        </activity>
+        
+        <activity 
+            android:name="com.example.popupmenutest.WeeknumberModel" >
+        </activity>
+        
+    </application>
+
+</manifest>
